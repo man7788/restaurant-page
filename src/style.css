@@ -6,18 +6,57 @@
 
 body {
   height: 100vh;
+  background: url('./potrait.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  justify-items: center;
+}
+
+.header-container {
+  border: 2px solid lightseagreen;
+  background: antiquewhite;
+  height: 5rem;
+  width: 100%;
+  grid-row: 1 / 2;
   display: flex;
   justify-content: center;
 }
 
-#content {
-  background: whitesmoke;
-  width: 70rem;
-  height: 100vh;
+.tab {
+  border: 2px solid salmon;
+  border-radius: 20px 20px 0 0;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.photo {
-  width: 20rem;
-  height: auto;
+#content {
+  background: antiquewhite;
+  border-radius: 20px;
+  width: 70rem;
+  height: 100vh;
+  grid-row: 2 / 3;
+  display: grid;
+  padding: 2rem;
+}
+
+.title {
+  border: 2px solid salmon;
+  font-size: 3rem;
+}
+
+.homeBlock {
+  border: 2px solid salmon;
+  font-size: 2rem;
+}
+.footer-container {
+  border: 2px solid lightseagreen;
+  background: antiquewhite;
+  height: 5rem;
+  width: 100%;
+  grid-row: 3 / 4;
 }

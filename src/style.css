@@ -1,4 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 #content {
-  font-size: x-large;
-  color: red;
+  background: whitesmoke;
+  width: 70rem;
+  height: 100vh;
+
+}
+
+.photo {
+  width: 20rem;
+  height: auto;
 }

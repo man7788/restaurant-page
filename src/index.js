@@ -1,10 +1,14 @@
 import './style.css';
+import { 
+  creatPhoto, 
+  creatTitle,
+  createReview, } 
+  from './intial-load';
 
-//  function component() {
-//    const element = document.createElement('div');
+function component() {
+}
 
+content.appendChild(creatTitle());
+content.appendChild(creatPhoto());
+content.appendChild(createReview());
 
-//    return element;
-//  }
-
-//  document.body.appendChild(component());

@@ -1,26 +1,21 @@
-function createMenu() {
+const createMenu = () => {
     const element = document.createElement('div');
-    element.classList.add('home-container');
+    element.classList.add('menu-container');
   
     const para1 = document.createElement('div');
     para1.classList.add('menuBlock');
     para1.textContent = 
-    `1. This cozy restaurant has left the best impressions! 
-    Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and 
-    wonderful dessert. I recommend to everyone! I would like to come back here again and again.`
+    `Set 1: Soup and Salad, Seared Scallops, Steak with asparagus, Dessert`
     
     const para2 = document.createElement('div');
     para2.classList.add('menuBlock');
     para2.textContent =
-    `Sunday-Tuesday: 10am - 10pm\n
-    Wednesday: Close
-    Thursday-Saturday: 10am - 10pm
-    `
+    `Set 2: Soup and Salad, Seared Tuna, Loster with pasta, Dessert`
     
     const para3 = document.createElement('div');
     para3.classList.add('menuBlock');
     para3.textContent = 
-    `5th Street, East Valley, Main Town`
+    `Set 2: Soup and Salad, Foie gras with toast, Lamp chops with asparagus, Dessert`
   
     element.appendChild(para1);
     element.appendChild(para2);

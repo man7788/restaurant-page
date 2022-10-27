@@ -15,13 +15,13 @@ function createHeader() {
   element.classList.add('header-container');
 
   const tab1 = document.createElement('div');
-  tab1.classList.add('tab');
+  tab1.classList.add('tab1');
   tab1.textContent = 'Home';
   const tab2 = document.createElement('div');
-  tab2.classList.add('tab');
+  tab2.classList.add('tab2');
   tab2.textContent = 'Menu';
   const tab3 = document.createElement('div');
-  tab3.classList.add('tab');
+  tab3.classList.add('tab3');
   tab3.textContent = 'Contact';
 
   element.appendChild(tab1);
@@ -35,7 +35,7 @@ function createHeader() {
 function createFooter() {
   const element = document.createElement('div');
   element.classList.add('footer-container');
-
+  element.textContent = 'East Valley Restaurant @2022';
   return element;
 }
 

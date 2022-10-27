@@ -24,7 +24,9 @@ body {
   justify-content: center;
 }
 
-.tab {
+.tab1,
+.tab2,
+.tab3 {
   border: 2px solid salmon;
   border-radius: 20px 20px 0 0;
   width: 10rem;
@@ -49,7 +51,9 @@ body {
   font-size: 3rem;
 }
 
-.homeBlock {
+.homeBlock,
+.menuBlock,
+.contactBlock {
   border: 2px solid salmon;
   font-size: 2rem;
 }
@@ -59,4 +63,5 @@ body {
   height: 5rem;
   width: 100%;
   grid-row: 3 / 4;
+  font-size: 1.2rem;
 }

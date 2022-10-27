@@ -1,18 +1,18 @@
-function createTitle() {
+const createTitle = () => {
   const element = document.createElement('div');
   element.textContent = 'East Valley Restaurant';
   element.classList.add('title');                                      
   return element;
 }
 
-function createHome() {
+const createHome = () => {
   const element = document.createElement('div');
   element.classList.add('home-container');
 
   const para1 = document.createElement('div');
   para1.classList.add('homeBlock');
   para1.textContent = 
-  `1. This cozy restaurant has left the best impressions! 
+  `This cozy restaurant has left the best impressions! 
   Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and 
   wonderful dessert. I recommend to everyone! I would like to come back here again and again.`
   
